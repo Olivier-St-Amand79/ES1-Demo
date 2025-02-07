@@ -1905,6 +1905,7 @@ GameObject:
   - component: {fileID: 1472675590}
   - component: {fileID: 1472675589}
   - component: {fileID: 1472675588}
+  - component: {fileID: 1472675592}
   m_Layer: 0
   m_Name: Terminus
   m_TagString: Terminus
@@ -1998,6 +1999,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1472675592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472675587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ca1eca3c4e146429a18857b11dbab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _activation: 0
+  _bille: {fileID: 1530374466}
+  _terminus: {fileID: 1472675587}
 --- !u!1001 &1483138150
 PrefabInstance:
   m_ObjectHideFlags: 0
