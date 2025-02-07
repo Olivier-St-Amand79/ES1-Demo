@@ -376,8 +376,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 58.25
+  m_fontSizeBase: 58.25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -1396,8 +1396,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 446.26, y: 232.12805}
-  m_SizeDelta: {x: 209.4878, y: 54.7439}
+  m_AnchoredPosition: {x: 743.90186, y: 479.96497}
+  m_SizeDelta: {x: 432.204, y: 120.074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802597019
 MonoBehaviour:
@@ -1443,13 +1443,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 4546ce47eb6df774bb9a70c5d17eaaea, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 49597813}
+        m_TargetAssemblyTypeName: Commencer, Assembly-CSharp
+        m_MethodName: CommencerBouton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 1472675588}
   m_Layer: 0
   m_Name: Terminus
-  m_TagString: Untagged
+  m_TagString: Terminus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
