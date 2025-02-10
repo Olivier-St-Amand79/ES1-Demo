@@ -17,7 +17,7 @@ public class CompteRebour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_activation = 1f)
+        if(_activation == 1f)
         {
 
         }
@@ -26,7 +26,7 @@ public class CompteRebour : MonoBehaviour
     void OnCollisionEnter(Collision collision){
         print(collision.gameObject.name + " : " + collision.gameObject.tag);
         if(collision.gameObject.CompareTag("Terminus")){
-            _activation = 1f;
+            _activation += 1f;
         }
     }
 }
